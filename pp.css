@@ -1,0 +1,91 @@
+        html {
+            /* Needed to fix footer at bottom of browser */
+            position: relative;
+            min-height: 100%;
+        }
+        body {
+            /* Move down content because of fixed navbar at top */
+            padding-top: 50px;
+            background-color: #E7D1D1;
+            /* Set margin bottom allow for footer height */
+            margin-bottom: 50px;
+        }
+        h1 {
+            font-family: Cambria, Georgia, serif;
+            color: #000000;
+            font-weight: bold;
+        }
+        h3 {
+            font-family: Cambria, Georgia, serif;
+            color: #000000;
+            font-weight: bold;
+        }
+        p {
+            font-family: Tahoma, Verdana, Segoe, sans-serif;
+            color: #000000;
+        }
+        #main {
+            background-color: #FFFFFF;
+            padding-top: 20px;
+            padding-bottom: 25px;
+        }
+        #main .row {
+            margin-bottom: 15px;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            height: 50px;
+            width: 100%;
+            background-color: #A70004;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 15px;
+        }
+        h4 {
+            font-family: Cambria, Georgia, serif;
+            font-weight: bold;
+            color: #000000;
+        }
+        footer p {
+            color: #FFFFFF;
+        }
+        .contact {
+            padding-bottom: 10px;
+            font-family: Cambria, Georgia, serif;
+            font-weight: bold;
+        }
+        .navbar-inverse {
+            background-color: #A70004;
+            font-family: Tahoma, Verdana, Segoe, sans-serif;
+            color: #FFFFFF;
+        }
+        .navbar-inverse .navbar-brand {
+            font-family: Tahoma, Verdana, Segoe, sans-serif;
+            color: #FFFFFF;
+        }
+        #face {
+            padding-top: 20px;
+        }
+        ul {
+            font-family: Tahoma, Verdana, Segoe, sans-serif;
+            color: #000000;
+        }
+        #screenshot1 {
+            padding: 5px;
+            border: 3px solid #A70004;
+            width: 420px;
+            height: 240px;
+        }
+        #screenshot2 {
+            padding: 5px;
+            border: 3px solid #A70004;
+            width: 420px;
+            height: 240px;
+        }
+        #screenshot3 {
+            padding: 5px;
+            border: 3px solid #A70004;
+            width: 420px;
+            height: 240px;
+        }
