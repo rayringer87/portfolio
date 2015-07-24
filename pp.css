@@ -64,6 +64,14 @@
             font-family: Tahoma, Verdana, Segoe, sans-serif;
             color: #FFFFFF;
         }
+        header {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 5px;
+            background-color: #FFFFFF;
+            border: 1px solid #000000;
+            box-shadow: 5px 5px 5px #A70004;
+        }
         #face {
             padding-top: 20px;
         }
@@ -89,47 +97,41 @@
             width: 420px;
             height: 240px;
         }
-
-.desktop {
-    display: inline;
-}
-.mobile {
-    display: none;
-}
-
-#skills {
-    margin-top: 10px;
-    martin-bottom: 10px;
-    padding: 5px;
-    background-color: #FFFFFF;
-    border: 1px solid #000000;
-}
-#portfolio {
-    margin-top: 10px;
-    martin-bottom: 10px;
-    padding: 5px;
-    background-color: #FFFFFF;
-    border: 1px solid #000000;
-}
-#education {
-    margin-top: 10px;
-    martin-bottom: 10px;
-    padding: 5px;
-    background-color: #FFFFFF;
-    border: 1px solid #000000;
-}
-
-
-
-
-
-@media only screen and (max-width: 480px) {
-    
-    .mobile {
-        display: inline;
-    }
-    .desktop {
-        display: none;
-    }
-    
-}
+        .desktop {
+            display: inline;
+        }
+        .mobile {
+            display: none;
+        }
+        #skills {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 5px;
+            background-color: #FFFFFF;
+            border: 1px solid #000000;
+            box-shadow: 5px 5px 5px #A70004;
+        }
+        #portfolio {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 5px;
+            background-color: #FFFFFF;
+            border: 1px solid #000000;
+            box-shadow: 5px 5px 5px #A70004;
+        }
+        #education {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 5px;
+            background-color: #FFFFFF;
+            border: 1px solid #000000;
+            box-shadow: 5px 5px 5px #A70004;
+        }
+        @media only screen and (max-width: 480px) {
+            .mobile {
+                display: inline;
+            }
+            .desktop {
+                display: none;
+            }
+        }
