@@ -26,7 +26,7 @@
 .icon-google-plus2:before {
 	content: "\e600";
     font-size: 200%;
-    color: red;
+    color: #FFFFFF;
     padding: 5px;
 }
 .icon-facebook2:before {
@@ -46,5 +46,5 @@
 .icon-linkedin:before {
 	content: "\e605";
     font-size: 200%;
-    color: blue;
+    color: #FFFFFF;
 }
